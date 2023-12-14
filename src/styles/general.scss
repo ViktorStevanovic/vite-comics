@@ -1,0 +1,13 @@
+@use './partials/variables' as *;
+@use './partials/mixins' as *;
+
+*{
+    @include reset;
+}
+.wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
