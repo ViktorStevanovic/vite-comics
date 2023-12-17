@@ -11,3 +11,7 @@
 li{
     list-style: none;
 }
+.active{
+    color: $color-blue;
+    border-bottom: 3px solid $color-blue;
+}

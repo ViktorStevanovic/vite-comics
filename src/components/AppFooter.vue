@@ -7,43 +7,43 @@
                         <h2>Dc Comics</h2>
                         <ul>
                             <li>Characters</li>
-                            <li>Characters</li>
-                            <li>Characters</li>
-                            <li>Characters</li>
-                            <li>Characters</li>
-                            <li>Characters</li>
-                            <li>Characters</li>
+                            <li>Comics</li>
+                            <li>Movies</li>
+                            <li>TV</li>
+                            <li>Games</li>
+                            <li>Videos</li>
+                            <li>News</li>
                         </ul>
                         <h2>Shop</h2>
                         <ul>
-                            <li>Giggio</li>
-                            <li>Giggio</li>
+                            <li>Shop DC</li>
+                            <li>Shop DC Collectibles</li>
                         </ul>
                     </div>
                     <div class="center">
                         <h2>Dc</h2>
                         <ul>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
-                            <li>Superbatman</li>
+                            <li>Terms of use</li>
+                            <li>Privacy policy (New)</li>
+                            <li>Ad Choices</li>
+                            <li>Advertising</li>
+                            <li>Jobs</li>
+                            <li>Subscriptions</li>
+                            <li>Talent Workshops</li>
+                            <li>CPSC Certificates</li>
+                            <li>Ratings</li>
+                            <li>Shop Help</li>
+                            <li>Contact Us</li>
                         </ul>
                     </div>
                     <div class="right">
                         <h2>Sites</h2>
                         <ul>
-                            <li>Sitesss</li>
-                            <li>Sitesss</li>
-                            <li>Sitesss</li>
-                            <li>Sitesss</li>
-                            <li>Sitesss</li>
+                            <li>DC</li>
+                            <li>MAD Magazine</li>
+                            <li>DC Kids</li>
+                            <li>DC Universe</li>
+                            <li>DC Power Visa</li>
                         </ul>
                     </div>
                 </section>
@@ -98,16 +98,23 @@ footer{
         .footer-nav{
             @include flex(row, center, start);
             gap: 2.5rem;
+            h2{
+                margin-bottom: .75rem;
+                text-transform: uppercase;
+                font-size: 1.25rem;
+            }
             li{
                 color:gray;
+                margin-bottom: .25rem;
+
             }
             
         }
-        .footer-logo{
-            // background-image: url('../assets/img/dc-logo-bg.png');
-            // width: 500px;
-            // height: 100%;
-        }
+        // .footer-logo{
+        //     // background-image: url('../assets/img/dc-logo-bg.png');
+        //     // width: 500px;
+        //     // height: 100%;
+        // }
     }
     .lower-footer{
         background-color: $bg-gray;

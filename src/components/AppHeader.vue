@@ -6,7 +6,7 @@
             </div>
             <section class="navigation">
                 <ul>
-                    <li v-for='link in navLinks'>{{ link.name }}</li>
+                    <li v-for='link in navLinks' :class="(link.active) ? 'active' : ''">{{ link.name }} </li>
                 </ul>
             </section>
         </div>
@@ -79,17 +79,24 @@ export default {
 @use '../styles/partials/variables' as *;
 header{
     width: 100%;
+    position: fixed;
+    background-color: $bg-white;
     img{
-        width: 80%
+        width: 70px;
     }
     .wrapper{
         @include flex(row, space-between,center);
+        div{
+            @include flex(row, space-between,center);
+        }
         ul{
             @include flex(row,center,center);
-            gap: 1rem;
+            gap: 2rem;
             list-style: none;
             li{
-                padding: 3rem 1rem;
+                padding: 2rem 0rem;
+                text-transform: uppercase;
+                font-size: .8rem;
             }
         }
     }
